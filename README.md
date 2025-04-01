@@ -8,8 +8,8 @@ Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-- Node.js (v18 or higher recommended)
-- npm or yarn
+- Node.js
+- npm
 
 ### Installation
 
