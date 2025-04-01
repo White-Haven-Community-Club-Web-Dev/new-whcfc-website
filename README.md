@@ -1,29 +1,53 @@
-# Create T3 App
+# WHCFC Website
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Official website for WHCFC built with Next.js and modern web technologies.
 
-## What's next? How do I make an app with this?
+## Getting Started
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Follow these steps to set up and run the project locally.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### Prerequisites
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone https://github.com/White-Haven-Community-Club-Web-Dev/new-whcfc-website.git
+cd whcfc-website
+```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+3. Start the development server:
+```bash
+npm run dev
+```
 
-## How do I deploy this?
+The site will be running at [http://localhost:3000](http://localhost:3000) (or the specified port in the output).
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Deployment
+
+The website is automatically deployed via Netlify. Any changes pushed to the main branch will trigger a new deployment.
+
+### To-Do List
+
+- [ ] UI/UX redesign for most pages
+- [ ] Implement interactive chatbot
+- [ ] Develop dynamic event system:
+  - [ ] Integration with CMS (Contentful/Sanity)
+  - [ ] Dynamic event page generation
+  - [ ] Event management system
+
+## Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/) (React Framework)
+- **CMS**: Contentful/Sanity (pending integration)
+- **Hosting**: [Netlify](https://www.netlify.com/)
+- **Type Safety**: TypeScript
+- **Styling**: Tailwind CSS
