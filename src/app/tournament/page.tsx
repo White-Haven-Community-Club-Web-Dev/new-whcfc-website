@@ -63,8 +63,10 @@ export default function TournamentPage() {
               >
                 June 28-29 (Sat - Sun)
               </h2>
-              <h2 className="hero_sub font-title text-[.625rem] text-white sm:text-base lg:text-2xl">
-                &#64; UTSC “THE VALLEY"
+              <h2
+                className={`${styles.hero_sub} font-title text-[.625rem] text-white sm:text-base lg:text-2xl`}
+              >
+                @ UTSC {'"THE VALLEY"'}
               </h2>
             </div>
           </div>

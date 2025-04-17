@@ -12,7 +12,7 @@ export default function YouthProgramPage() {
   });
 
   useEffect(() => {
-    let dest = new Date("March 19, 2025 00:00:00").getTime();
+    const dest = new Date("March 19, 2025 00:00:00").getTime();
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const diff = dest - now;
